@@ -3,7 +3,8 @@ import os
 def chamarMenu():
     escolha = int(input("\nDigite: "
                       "\n<1> para registrar ativo"
-                      "\n<2> para exibir ativos armazenados: "))
+                      "\n<2> para exibir ativos armazenados"
+                      "\n< > digite qualquer outro número para sair"))
     return escolha
 
 def ler_arquivo(arquivo):
