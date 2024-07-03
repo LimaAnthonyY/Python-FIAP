@@ -10,7 +10,7 @@ while resposta == "S":
             int(input("Número Serial: ")),
             input("Departamento: ")]
   inventario.append(equipamento)
-  resposta = input("Digite "S" para continuar: ").upper()
+  resposta = input("Digite 's' para continuar: ").upper()
 
 #exibir dados do inventário
 for elemento in inventario:
@@ -83,7 +83,7 @@ def preencherInventario(lista):
               int(input("Número Serial: ")),
               input("Departamento: ")]
     lista.append(equipamento)
-    resp = input("Digite "S" para continuar: ").upper()
+    resp = input("Digite 'S' para continuar: ").upper()
 
 def exibirInventario(lista):
   for elemento in lista:
