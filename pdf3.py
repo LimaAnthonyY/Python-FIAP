@@ -126,7 +126,7 @@ while resposta == "S":
             int(input("Número Serial: ")),
             input("Departamento: ")]
   inventario.append(equipamento)
-  resposta = input("Digite "S" para continuar: ").upper()
+  resposta = input("Digite 'S' para continuar: ").upper()
 
 for elemento in inventario:
   print("Nome.........: ", elemento[0])
@@ -167,4 +167,3 @@ if len(valores)>0:
   print(f"O equipamento mais caro custa: {max(valores)}")
   print(f"O equipamento mais barato custa: {min(valores)}")
   print(f"O total de equipamentos é de: {sum(valores)}")
-  
